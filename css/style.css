@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background: url("/img/bg.jpg") no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+
+.profile {
+  max-width: 452px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.box {
+  background: #eee;
+  padding: 2rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+}
+.profile {
+  margin-top: 4rem;
+}
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+}
+
+.profile span {
+  font-size: 24px;
+}
+
+.profile p {
+  font-size: 18px;
+}
+
+.redes-sociais {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais li {
+  margin-right: 1rem;
+}
+
+.Descricao {
+  max-width: 886px;
+  margin: 2rem 0;
+}
+
+.Descricao ul {
+  margin-top: 3rem;
+}
+
+.Descricao li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  gap: 1rem;
+  color: black;
+}
+
+.Descricao h2 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.Descricao img {
+  border-radius: 20px;
+}
+
+.Modelo img {
+  margin-top: 6rem;
+}
+
+.Youtube iframe {
+  border-radius: 20px;
+  max-width: 500px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 16px black;
+  margin-top: 50vh;
+  padding-bottom: 50vh;
+  text-align: center;
+}
+
+@media (max-width: 600px){
+
+body{
+
+  background-attachment: initial;
+  background-size: contain;
+  background-color: #234b6f;
+}
+
+
+
+.box {
+
+padding: 2rem;
+margin-top: 4rem;
+border-radius: 30px;
+
+}
+
+.Descricao ul{
+
+margin-top: 1rem;
+
+}
+.Descricao li {
+
+grid-template-columns: 1fr;
+justify-items: center;
+
+}
+
+
+
+.Descricao li div{
+
+max-width: 448px;
+
+}
+
+.copyright {
+font-size: 18px;
+color: white;
+text-shadow: none;
+margin: 0;
+padding: 4rem 0;
+
+}
+
+}
